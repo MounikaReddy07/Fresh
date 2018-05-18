@@ -11,6 +11,7 @@ namespace MVC.Areas.mvcarea
         // GET: mvcarea/first
         public ActionResult Index()
         {
+            Console.ReadLine();
             return View();
         }
     }
